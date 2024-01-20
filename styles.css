@@ -1,4 +1,44 @@
-.Name{
-	background-color:blue
+.container{
+	display:flex;
+	background-color:lightgray;
+	margin:10px;
+	padding:5px;
 }
+.details{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:5px;
+	padding:5px;
+}
+.sections , #Skills{
+	margin-inline:30px;
+}
+.sections h3,p{
+	/* line-height:5px */
+}
+#Name,#Profile ,#Email{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	margin:0px
+	padding:0px;
+	height:28px;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill span {
+  display: flex;
+  width: 80px;
+}
+
+.progress-bar {
+  display: inline-block;
+  height: 10px;
+  background-color: #4CAF50;
+}
+
 
